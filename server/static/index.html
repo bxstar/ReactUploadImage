@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>上传</title>
+</head>
+<body>
+<!--http://www.haorooms.com/post/css_input_uploadmh-->
+
+<form ref='myForm' action='http://114.55.172.131:3000/upload' method='post' encType='multipart/form-data'>
+    <div ref='head' className='uploadContainer'>
+        <div className='uploadBox'>
+            <!--<input type='file' value="单文件" accept='image/*' name='fileSelect1' />-->
+            <input type='file' value="多文件" accept='image/*,application/msexcel,application/msword,application/pdf' name='fileSelect2' multiple="multiple"/>
+        </div>
+        <div>
+            <input type="submit" value="提交" >
+        </div>
+    </div>
+</form>
+
+
+</body>
+</html>
